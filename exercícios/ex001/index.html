@@ -6,11 +6,10 @@
     <title>Teste HTML</title>
 </head>
 <body>
-    <h1>Teste de um estudo java</h1>
-    <p>Provavelmente você passou por várias perguntas, não é?</p>
     <script>
         var nome = window.prompt('Qual é seu nome?')
-         
+        document.write(`Seu nome tem ${nome.length} letras no nome`)
+        document.write(`Seu nome em maiúsculo é ${nome.toUpperCase()}`)
     </script>
 </body>
 </html>
